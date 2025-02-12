@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    /* Colors */
+    --primary-color: #ffcd42;
+    --secondary-color: #ffd35c;
+    --bg-primary: #ffffff;
+    --text-color: #222222;
+    --text-color-two: #ffffff;
+    --bg-secondary: #000000;
+    --card-background: #f4f4f4;
+    --bg-secondary-two: #111111;
+
+    --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+
+    /* Font Weight */
+    --weight-small: 400;
+    --weight-semibold: 600;
+    --weight-bold: 800;
+
+    /* Max width */
+    --width-small: 600px;
+    --width-medium: 1100px;
+    --width-large: 1300px;
+}
+nav{
+    background-color: #253237;
+}
+ul{
+    background-color: #253237;
+}
+a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #c095e6;
+    text-decoration: none;
+}
+.bar-container{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #c095e6;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #253237;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #253237;
+}
+.logo{
+    cursor: pointer;
+    width: 5%;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color: #ffc701;
+    text-decoration: none;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(2, 209, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #c095e6;
+}
+/* Your existing CSS */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.container {
+    max-width: var(--width-medium);
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+/*buttons*/
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+    color: #7b1e91;
+}
+h2 {
+    color: #7b1e91;
+    font-size: 30px;
+    /*margin-bottom: 20px;*/
+}
+hr {
+    border-color: #999999;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 3%;
+}
+.purpose-row{
+    width: 70%;
+    margin: 100px auto 250px auto;
+    text-align: left;
+    line-height: 2
+}
+.purpose-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f1c1fb;
+    text-align: center;
+}
+.purpose_img{
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+}
+.footerContainer{
+    width: 100%;
+    padding: 40px 30px 20px;
+    background-color: #253237;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.socialIcons a i{
+    font-size: 2em;
+}
+.footer-p{
+    color: #f1c1fb;
+    font-family: "Montserrat", sans-serif;
+}
+.footer-copyrights{
+    padding: 30px 0;
+}
+.footerNav{
+    padding-bottom: 20px;
+}
+.footerNav li{
+    list-style-type: none
+}
+/*Map Location*/
+.header-location{
+    padding-top: 30px;
+    color: #e1b9ea;
+    margin-bottom: 20px;
+}
+.map{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #7f4dc2;
+}
+.text-location{
+    color: #e1b9ea;
+    padding-bottom: 30px;
+}
+/*-End of Map*/
+
+/* Photo frame styling */
+.president-row{
+    width: 70%;
+    margin: 100px auto 150px auto;
+    text-align: left;
+    line-height: 2
+}
+.president-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f1c1fb;
+    text-align: center;
+}
+.photo-frame {
+    float: left;
+    width: 200px;               /* Adjust as desired */
+    border: 5px solid #f1c1fb;  /* A border color that complements your club branding */
+    margin: 0 20px 20px 0;         /* Center the frame */
+    padding: 10px;              /* Optional padding */
+    background-color: #fff;     /* White background to make it pop */
+    border-radius: 8px;         /* Slight rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.photo-frame img {
+    width: 100%;
+    height: auto;
+    display: block;             /* Ensures image is displayed properly */
+    border-radius: 4px;         /* Slight rounding of the image corners */
+}
+.header-with-padding{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* End of Photo frame styling */
+
+/*Contact Page*/
+.contact-background{
+    background-color: #f1c1fb;
+    padding: 40px 30px 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.form-group {
+    flex: 1 1 calc(50% - 1rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.full-width {
+    flex: 1 1 100%;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+input,
+select,
+textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.submit-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #7b1e91;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.submit-btn:hover {
+    background-color: #5a1169;
+}
+.cta {
+    display: inline-block;
+}
+.cta button {
+    cursor: pointer;
+}
